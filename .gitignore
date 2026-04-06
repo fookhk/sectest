@@ -18,4 +18,14 @@ node_modules/
 *.log
 .tmp/
 
+# Nmap scan outputs
+results/*.nmap
+results/*.gnmap
+results/*.xml
+
 # Keep result artifacts versioned unless explicitly ignored
+hosts.txt
+
+# Ignore results/recon folders
+results/
+recon/
