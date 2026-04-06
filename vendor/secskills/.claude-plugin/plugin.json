@@ -1,0 +1,17 @@
+{
+  "name": "secskills",
+  "version": "1.0.0",
+  "description": "Comprehensive offensive security toolkit with 16 production-ready skills and 6 specialized subagents for penetration testing, red teaming, cloud security, mobile security, Web3 auditing, and reconnaissance. Covers web apps, Active Directory, Linux/Windows privilege escalation, network services, containers, passwords, APIs, mobile pentesting, cloud security, wireless attacks, phishing, persistence, and Web3/smart contracts.",
+  "author": {
+    "name": "trilwu",
+    "url": "https://github.com/trilwu"
+  },
+  "agents": [
+    "./agents/pentester.md",
+    "./agents/cloud-pentester.md",
+    "./agents/mobile-pentester.md",
+    "./agents/recon-specialist.md",
+    "./agents/red-team-operator.md",
+    "./agents/web3-auditor.md"
+  ]
+}

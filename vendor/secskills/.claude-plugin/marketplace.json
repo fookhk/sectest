@@ -1,0 +1,24 @@
+{
+  "name": "secskills-marketplace",
+  "owner": {
+    "name": "trilwu",
+    "url": "https://github.com/trilwu"
+  },
+  "metadata": {
+    "description": "Official marketplace for SecSkills - comprehensive offensive security toolkit for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "secskills",
+      "source": "./secskills",
+      "description": "Comprehensive offensive security toolkit with 16 production-ready skills and 6 specialized AI subagents for penetration testing, red teaming, cloud security, mobile security, Web3 auditing, and reconnaissance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "trilwu",
+        "url": "https://github.com/trilwu"
+      }
+    }
+  ]
+
+}
